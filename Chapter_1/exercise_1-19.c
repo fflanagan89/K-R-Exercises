@@ -36,7 +36,7 @@ int get_line(char s[], int lim){
     return i;
 
 }
-
+/* swapping the ends and moving inwards by one on each side */
 void reverse(char s[], int len){
 
     for(int i = 0; i <= len; ++i, --len) {
